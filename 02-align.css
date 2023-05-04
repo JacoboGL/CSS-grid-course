@@ -1,0 +1,33 @@
+.container {
+    width: 440px;
+    height: 440px;
+    background-color: green;
+}
+
+.background {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 40px;
+}
+
+.item {
+    display: grid;
+    background-color: greenyellow;
+    place-content: end;
+}
+
+.item .box {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(124, 182, 37);
+}
+
+.union {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 44, 0);
+    position: absolute;
+    top: 208px;
+    left: 208px;
+}
