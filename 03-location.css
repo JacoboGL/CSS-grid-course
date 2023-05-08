@@ -1,0 +1,48 @@
+.main-container {
+    display: grid;
+
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+
+    grid-template-areas: 
+    "area1 area2 area2"
+    "area3 area3 area4"
+    "area5 area6 area7";
+
+    place-content: center;
+}
+
+.area-1 {
+    background-color: yellowgreen;
+    grid-area: area1;
+}
+
+.area-2 {
+    background-color: rgb(94, 205, 50);
+    grid-area: area2;
+}
+
+.area-3 {
+    background-color: green;
+    grid-area: area3;
+}
+
+.area-4 {
+    background-color: yellowgreen;
+    grid-area: area4;
+}
+
+.area-5 {
+    background-color: yellowgreen;
+    grid-area: area5;
+}
+
+.area-6 {
+    background-color: rgb(94, 205, 50);
+    grid-area: area6;
+}
+
+.area-7 {
+    background-color: green;
+    grid-area: area7;
+}
